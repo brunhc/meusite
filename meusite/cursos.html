@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+    <head> <!-- Informações ao navegador  -->
+        <meta charset="utf-8">
+        <title>Bruno Henrique - Cursos</title>
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/cursos.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="caixa">
+                <a href="indice.html"><img src="imagens/logo.png" alt=""></a>
+                <nav>
+                    <ul>
+                        <li><a href="indice.html">Página Inicial</a></li>
+                        <!-- <li><a href="codigos-e-teste.html">Códigos e Testes</a></li> -->
+                        <li><a href="cursos.html">Cursos concluídos</a></li>
+                        <!-- <li><a href="contatos.html">Contato</a></li> -->
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <main>
+            <h1>Cursos Alura</h1>
+
+            <section class="filtro">
+                <label for="filtrar-tabela">Filtrar</label>
+                <input type="text" name="filtrar-tabela" id="filtrar-tabela"
+                placeholder="Digite o nome, formação ou data de conclusão">
+            </section>
+
+            <table class="Cursos">
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Formação</th>
+                        <th>Data de conclusão</th>
+                        <th>Certificado</th>
+                        <th>Carga Horária</th>
+                    </tr>
+                </thead>
+                <tbody id="tabelacursos">
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">A primeira página da Web</td>
+                        <td class="formacao">HTML e CSS</td>
+                        <td class="data">23/06/2021</td>
+                        <td><a href='Certificados/HTML.JPG' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                        <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Suas primeiras páginas da Web</td>
+                        <td class="formacao">HTML e CSS</td>
+                        <td class="data">23/06/2021</td>
+                        <td><a href='Certificados/HTML1.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                        <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Posicionamento, listas e navegação</td>
+                        <td class="formacao">HTML e CSS</td>
+                        <td class="data">04/07/2021</td>
+                        <td><a href='Certificados/HTML2.JPG' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                        <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Trabalhando com formulários e tabelas</td>
+                        <td class="formacao">HTML e CSS</td>
+                        <td class="data">06/07/2021</td>
+                        <td><a href='Certificados/HTML3.JPG' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                        <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Avançando no CSS</td>
+                        <td class="formacao">HTML e CSS</td>
+                        <td class="data">12/07/2021</td>
+                        <td><a href='Certificados/HTML4.Gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Acessibilidade web: introdução a designs inclusivos</td>
+                        <td class="formacao">HTML e CSS</td>
+                        <td class="data">15/07/2021</td>
+                        <td><a href='Certificados/Acessibilidade1.Gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">HTTP: Entendendo a web por baixo dos panos</td>
+                        <td class="formacao">HTML e CSS</td>
+                        <td class="data">16/07/2021</td>
+                        <td><a href='Certificados/HTTP.Gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">JavaScript: Programando na linguagem da web</td>
+                        <td class="formacao">HTML e CSS</td>
+                        <td class="data">21/07/2021</td>
+                        <td><a href='Certificados/JS.Gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">20</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Java JRE e JDK: Escreva o seu primeiro código com
+                            Eclipse</td>
+                        <td class="formacao">Java e Orientação a Objetos</td>
+                        <td class="data">16/11/2018</td>
+                        <td><a href='Certificados/Java1.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Java OO: Introdução à Orientação a Objetos</td>
+                        <td class="formacao">Java e Orientação a Objetos</td>
+                        <td class="data">20/11/2018</td>
+                        <td><a href='Certificados/Java2.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Java Polimorfismo: Entenda herança e interfaces</td>
+                        <td class="formacao">Java e Orientação a Objetos</td>
+                        <td class="data">11/12/2018</td>
+                        <td><a href='Certificados/Java2.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Java Exceções: Aprenda a criar, lançar e controlar
+                            exceções</td>
+                        <td class="formacao">Java e Orientação a Objetos</td>
+                        <td class="data">10/03/2019</td>
+                        <td><a href='Certificados/Java3.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Java e java.lang: Programe com a classe Object e
+                            String</td>
+                        <td class="formacao">Java e Orientação a Objetos</td>
+                        <td class="data">24/03/2019</td>
+                        <td><a href='Certificados/Java4.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Python 3 parte 1: Introdução à nova versão da
+                            linguagem</td>
+                        <td class="formacao">Python</td>
+                        <td class="data">11/06/2021</td>
+                        <td><a href='Certificados/Python1.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Python 3 parte 2: Avançando na linguagem</td>
+                        <td class="formacao">Python</td>
+                        <td class="data">14/06/2021</td>
+                        <td><a href='Certificados/Python2.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Python 3: Introdução a Orientação a objetos</td>
+                        <td class="formacao">Python</td>
+                        <td class="data">15/06/2021</td>
+                        <td><a href='Certificados/Python OO.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Python 3: Avançando na orientação a objetos</td>
+                        <td class="formacao">Python</td>
+                        <td class="data">18/06/2021</td>
+                        <td><a href='Certificados/Python OO2.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Testes automatizados: TDD com Python</td>
+                        <td class="formacao">Python</td>
+                        <td class="data">04/07/2021</td>
+                        <td><a href='Certificados/Python TDD.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Python Collections parte 1: Listas e tuplas</td>
+                        <td class="formacao">Python</td>
+                        <td class="data">24/06/2021</td>
+                        <td><a href='Certificados/Python Colec.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Python Collections parte 2: Conjuntos e
+                            dicionários</td>
+                        <td class="formacao">Python</td>
+                        <td class="data">24/06/2021</td>
+                        <td><a href='Certificados/Python Colec2.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Python Brasil: Validação de dados no padrão
+                            nacional</td>
+                        <td class="formacao">Python</td>
+                        <td class="data">30/06/2021</td>
+                        <td><a href='Certificados/Python Br.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">String em Python: Extraindo informações de uma
+                            URL</td>
+                        <td class="formacao">Python</td>
+                        <td class="data">21/06/2021</td>
+                        <td><a href='Certificados/Python Url.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Scrum: Agilidade em seu projeto</td>
+                        <td class="formacao">Digital & Agile Thinking</td>
+                        <td class="data">10/06/2021</td>
+                        <td><a href='Certificados/Scrum.PNG' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Agilidade em seu projeto</td>
+                        <td class="formacao">Aprendizagem</td>
+                        <td class="data">10/06/2021</td>
+                        <td><a href='Certificados/aprenderaaprender.jpg' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Lógica I: Os primeiros programas com
+                            Javascript e HTML</td>
+                        <td class="formacao">Programação</td>
+                        <td class="data">02/01/2019</td>
+                        <td><a href='Certificados/Logica1.GIF' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">Lógica II: pratique com desenhos,
+                            animações e um jogo</td>
+                        <td class="formacao">Programação</td>
+                        <td class="data">17/02/2019</td>
+                        <td><a href='Certificados/Logica1.gif' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">C I: Introdução à Linguagem das Linguagens</td>
+                        <td class="formacao">Programação</td>
+                        <td class="data">25/05/2019</td>
+                        <td><a href='Certificados/CI.JPG' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">C II: Avançando na linguagem</td>
+                        <td class="formacao">Programação</td>
+                        <td class="data">31/05/2019</td>
+                        <td><a href='Certificados/CII.JPG' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+                    <tr class="cursoconcluido">
+                        <td class="nomeCurso">C III: Recursos avançados da linguagem</td>
+                        <td class="formacao">Programação</td>
+                        <td class="data">09/06/2021</td>
+                        <td><a href='Certificados/CIII.JPG' download
+                            target='_blank'><button type="button" name="button">
+                                Baixe aqui</button></a></td>
+                                <td class="CH">8</td>
+                    </tr>
+
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Total</td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <section class="adicionar-novo-curso">
+                <h2 id="titulo-form">Adicionar novo curso</h2>
+                <form id="form-adiciona">
+                    <div class="grupo">
+                        <label for="curso">Nome do cursos:</label>
+                        <input type="text" id="curso" value="" placeholder="Digite o nome do curso">
+                    </div>
+                    <div class="grupo">
+                        <label for="formacao">Formação</label>
+                        <input type="text" id="formacao" value="" placeholder="Formação relacionada">
+                    </div>
+                    <div class="grupo">
+                        <label for="dataconclusao">Data de conclusão</label>
+                        <input type="date" id="dataconclusao" placeholder="Data de conclusão">
+                    </div>
+                    <div class="grupo">
+                        <label for="certificado">Certificado</label>
+                        <input type="text" id="certificado" placeholder="Nome da imagem do certificado">
+                    </div>
+                    <div class="grupo">
+                        <label for="cargahoraria">Carga Horária</label>
+                        <input type="number" id="cargahoraria" placeholder="Carga Horária">
+                    </div>
+
+                    <button type="button" id="adicionar-curso">Adicionar Curso</button>
+                </form>
+            </section>
+
+        </main>
+
+
+        <script type="text/javascript" src="js/principal.js"></script>
+        <script type="text/javascript" src="js/filtrar.js"></script>
+
+
+
+    </body>
+</html>
