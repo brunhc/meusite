@@ -31,7 +31,7 @@
             <!-- Cabeçalho -->
             <v-app-bar app color="indigo" dark>
                 <div class="caixa">
-                    <v-img src="./meuite/imagens/logo.png" max-width="100" alt="Logo"></v-img>
+                    <v-img src="./meusite/imagens/logo.png" max-width="100" alt="Logo"></v-img>
                     <v-spacer></v-spacer>
                     <v-btn text href="indice.html">Páginas Inicial</v-btn>
                     <v-btn text href="codigos-e-teste.html">Códigos e Testes</v-btn>
